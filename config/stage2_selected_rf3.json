@@ -1,0 +1,9 @@
+{
+  "run": "stage2_yolov8s_rf3_s0",
+  "weights": "/content/drive/MyDrive/helmet_thesis_v2/runs/stage2_yolov8s_rf3_s0/weights/best.pt",
+  "conf": 0.3,
+  "iou": 0.5,
+  "val_count_acc_bal": 0.6696315380525907,
+  "roboflow_version": 3,
+  "split": "roboflow"
+}

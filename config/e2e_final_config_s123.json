@@ -1,0 +1,19 @@
+{
+  "anchor": "neck",
+  "T": 0.7,
+  "s3_threshold": 0.5,
+  "head_off": [
+    -0.031483180820941925,
+    -0.5546953678131104
+  ],
+  "head_scale": 0.6038506627082825,
+  "stage1": "stage1_yolo11s-rf8_1280_s0",
+  "stage2": "stage2_yolov8s_rf3_s0",
+  "stage3": "stage3_yolo11s_rf6r15_s2",
+  "val_unseen_F1": 0.4444444444444444,
+  "val_unseen_P_labelled": 0.8,
+  "best_reference": "Run 4 (thesis)",
+  "best_reference_F1": 0.44897959183673464,
+  "selected_as_final": false,
+  "criterion": "max F1 on frames unseen by all three new models s.t. labelled P >= 0.7, and higher F1 than every reference"
+}

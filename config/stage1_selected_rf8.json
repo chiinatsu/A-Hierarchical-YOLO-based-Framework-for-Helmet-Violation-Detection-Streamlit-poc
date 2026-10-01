@@ -1,0 +1,8 @@
+{
+  "run": "stage1_yolo11s-rf8_1280_s0",
+  "weights": "/content/drive/MyDrive/helmet_thesis_v2/runs/stage1_yolo11s-rf8_1280_s0/weights/best.pt",
+  "imgsz": 1280,
+  "conf": 0.41,
+  "roboflow_version": 8,
+  "split": "roboflow"
+}
